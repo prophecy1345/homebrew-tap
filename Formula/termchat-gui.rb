@@ -5,24 +5,24 @@ class TermchatGui < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/prophecy1345/termchat/releases/download/v0.5.3/termchat-gui-v0.5.3-aarch64-apple-darwin.tar.gz"
-      sha256 "d60c3a651c0d6a50d3973c8aff65e62feada4bc99b8defbd224c37bdab331b37"
+      url "https://github.com/prophecy1345/termchat/releases/download/v0.5.4/termchat-gui-v0.5.4-aarch64-apple-darwin.tar.gz"
+      sha256 "90a9cfc058d5c85d07f10649ea0c8d67b4fc11b7390b886798660589ab1cdf94"
     end
     on_intel do
-      url "https://github.com/prophecy1345/termchat/releases/download/v0.5.3/termchat-gui-v0.5.3-x86_64-apple-darwin.tar.gz"
-      sha256 "9528bfca8258469e5cd17e120f82257b34cb1ad6eba696760259cd9644a49177"
+      url "https://github.com/prophecy1345/termchat/releases/download/v0.5.4/termchat-gui-v0.5.4-x86_64-apple-darwin.tar.gz"
+      sha256 "595f404d52cb82befe068ea55e066dfba3300cf1bd2b84d58d90d40d7f97f40f"
     end
   end
 
   # glibc, not musl: the window needs the system's OpenGL and X11/Wayland.
   on_linux do
     on_arm do
-      url "https://github.com/prophecy1345/termchat/releases/download/v0.5.3/termchat-gui-v0.5.3-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "1b5340379e723ea681d9ac08d4ae0f75a3525693b67159ddf8980da7b591ddd5"
+      url "https://github.com/prophecy1345/termchat/releases/download/v0.5.4/termchat-gui-v0.5.4-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "592c762e0c7c1753d5929c2e2b800009adff8f3b505430b7daff0e9c1082c1e7"
     end
     on_intel do
-      url "https://github.com/prophecy1345/termchat/releases/download/v0.5.3/termchat-gui-v0.5.3-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "cc9b05167b2e62f24ff58f5c31401776b508d0e5f98098d903774a542050f89c"
+      url "https://github.com/prophecy1345/termchat/releases/download/v0.5.4/termchat-gui-v0.5.4-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "b39f46ef6c4728c824e76d9c5cc22f2748c6442c005108f14cafd8d16d603bc6"
     end
   end
 
