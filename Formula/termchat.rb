@@ -5,23 +5,23 @@ class Termchat < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/prophecy1345/termchat/releases/download/v0.10.0/termchat-v0.10.0-aarch64-apple-darwin.tar.gz"
-      sha256 "a114493d5753f5f1a324c7775fd7452dc53ef695a21365dce6b61aa7def9d67b"
+      url "https://github.com/prophecy1345/termchat/releases/download/v0.11.0/termchat-v0.11.0-aarch64-apple-darwin.tar.gz"
+      sha256 "251ab3e4528609f70cb3b06d912b382c0172e1a34bdf816f0a843c1e6da998b0"
     end
     on_intel do
-      url "https://github.com/prophecy1345/termchat/releases/download/v0.10.0/termchat-v0.10.0-x86_64-apple-darwin.tar.gz"
-      sha256 "78a2fad6d0107efc4b70eb001869e4f55e11c001853ec3746a7c04571bbebfc0"
+      url "https://github.com/prophecy1345/termchat/releases/download/v0.11.0/termchat-v0.11.0-x86_64-apple-darwin.tar.gz"
+      sha256 "5938ed52d76f2c36a43d1a15c21ad91032ccfb32e745075e01d78571847b380d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/prophecy1345/termchat/releases/download/v0.10.0/termchat-v0.10.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "e5e3193c6bef1a09990bf2da3d5e9d5a946f7ea55f88ccf3b2a72592df6e2b37"
+      url "https://github.com/prophecy1345/termchat/releases/download/v0.11.0/termchat-v0.11.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "d5145f9ad5924a0391cf61db2bf30cd1e17ff733340e7e26cd7feaa62b308aa9"
     end
     on_intel do
-      url "https://github.com/prophecy1345/termchat/releases/download/v0.10.0/termchat-v0.10.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "fa97080400f8d2e3ca47a486ef3cd5728d05ee610b49ddf35ee9d7d7224c9ec4"
+      url "https://github.com/prophecy1345/termchat/releases/download/v0.11.0/termchat-v0.11.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "86bfb11151596f68ce5c7c9fa9f70b0c543f30c94d52122a74e677964e82ddd3"
     end
   end
 
